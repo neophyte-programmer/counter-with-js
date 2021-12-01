@@ -49,24 +49,31 @@ body {
 
 #buttons {
     height: 50px;
-    width: 260px;
+    width: 100%;
     position: absolute;
     bottom: 8%;
-    left: 70px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
 }
 
 #buttons button {
     height: 50px;
-    width: 120px;
+    width: 70px;
     background: #1479ff;
     outline: none;
     border: none;
     border-radius: 8px;
     color: #fff;
     border: 1px solid #191c2130;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.4s ease;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
-#increment {
-    position: absolute;
-    right: 0;
+#buttons button:hover {
+    background: #2541a3;
 }
+
