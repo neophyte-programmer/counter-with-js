@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #f2f8ff;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    height: 400px;
+    width: 400px;
+    background: #fff;
+    border: 1px solid #e2ebf4;
+    position: relative;
+}
