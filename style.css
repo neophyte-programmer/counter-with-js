@@ -10,6 +10,7 @@ body {
     place-items: center;
     height: 100vh;
     background: #f2f8ff;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
     padding: 0;
     margin: 0;
 }
@@ -19,5 +20,53 @@ body {
     width: 400px;
     background: #fff;
     border: 1px solid #e2ebf4;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
     position: relative;
+}
+
+#container h2 {
+    color: #1479ff;
+    font-size: 50px;
+    position: absolute;
+    top: 8%;
+    left: 25%;
+}
+
+#container h1 {
+    width: 123px;
+    height: 127px;
+    text-align: center;
+    font-size: 110px; 
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: #48c6ef;
+}
+
+#buttons {
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    bottom: 8%;
+    left: 70px;
+}
+
+#buttons button {
+    height: 50px;
+    width: 120px;
+    background: #1479ff;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #191c2130;
+}
+
+#increment {
+    position: absolute;
+    right: 0;
 }
