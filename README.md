@@ -1,2 +1,2 @@
 # counter-with-js
-A small JavaScript project that counts up or down depending on the button pressed.
+A small JavaScript project that counts up or down depending on which button is pressed.
